@@ -33,7 +33,7 @@
     /* Style for the buttons */
     .rect-button {
         background-color: #ffcc00;
-        color: #fff;
+        color: #000000;
         border: none;
         padding: 15px 15px;
         border-radius: 5px;
@@ -45,8 +45,8 @@
     }
 
     .rect-button:hover {
-        background-color: #000000;
-        color: #ffcc00;
+        background-color: #ffcc00;
+        color: #000000;
     }
 
     /* Style for the info boxes */
