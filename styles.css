@@ -1,58 +1,71 @@
-    /* Reset some default styles */
-    body, html {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #f0f0f0;
-    }
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
 
-    /* Style for the central box */
-    .center-box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 400px;    }
+/* Style for the central box */
+.center-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
 
-    /* Style for each button container */
-    .button-container {
-        margin-bottom: 15px;
-    }
+/* Style for each button container */
+.button-container {
+    margin-bottom: 15px;
+}
 
-    /* Style for the buttons */
+/* Style for the buttons */
+.rect-button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: left;
+}
+
+.rect-button:hover {
+    background-color: #ffcc00;
+}
+
+/* Style for the info boxes */
+.info-box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Responsive styles */
+@media (min-width: 600px) {
     .rect-button {
-        background-color: #000000;
-        color: #fff;
-        border: none;
-        padding: 15px 15px;
-        border-radius: 5px;
-        font-size: 14px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        width: 100%;
-        text-align: left;
+        font-size: 16px;
+        padding: 15px 20px;
     }
 
-    .rect-button:hover {
-        background-color: #ffcc00;
-    }
-
-    /* Style for the info boxes */
     .info-box {
-        background-color: #f0f0f0;
-        padding: 10px;
-        border-radius: 5px;
-        text-align: left;
-        margin-top: 5px;
-        font-size: 14px;
-
+        font-size: 16px;
     }
+}
