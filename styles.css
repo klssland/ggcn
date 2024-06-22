@@ -32,8 +32,8 @@
 
     /* Style for the buttons */
     .rect-button {
-        background-color: #ffcc00;
-        color: #000000;
+        background-color: #000000;
+        color: #ffcc00;
         border: none;
         padding: 15px 15px;
         border-radius: 5px;
