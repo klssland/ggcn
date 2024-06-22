@@ -12,11 +12,8 @@ html {
 	background-color: #000000;
 }
 h2 {
-	color: #000000;
-	font-size: 24px;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 /* Style for the central box */
 .center-box {
