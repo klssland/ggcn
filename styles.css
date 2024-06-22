@@ -45,8 +45,8 @@
     }
 
     .rect-button:hover {
-        background-color: #ffcc00;
-        color: #000000;
+        background-color: #000000;
+        color: #ffcc00;
     }
 
     /* Style for the info boxes */
