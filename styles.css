@@ -38,6 +38,7 @@
         padding: 15px 15px;
         border-radius: 5px;
         font-size: 14px;
+        font-weight: bold;
         cursor: pointer;
         transition: background-color 0.3s;
         width: 100%;
