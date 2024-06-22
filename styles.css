@@ -21,12 +21,12 @@
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 300px;
+        width: 400px;
     }
 
     /* Style for each button container */
     .button-container {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     /* Style for the buttons */
@@ -34,13 +34,13 @@
         background-color: #000000;
         color: #fff;
         border: none;
-        padding: 15px 30px;
+        padding: 15px 15px;
         border-radius: 5px;
         font-size: 14px;
         cursor: pointer;
         transition: background-color 0.3s;
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .rect-button:hover {
@@ -52,7 +52,7 @@
         background-color: #f0f0f0;
         padding: 10px;
         border-radius: 5px;
-        text-align: center;
+        text-align: left;
         margin-top: 5px;
         font-size: 14px;
 
