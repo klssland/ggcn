@@ -6,9 +6,6 @@ html {
     box-sizing: border-box;
     font-family: Poppins;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #000000;
 }
 
@@ -19,7 +16,6 @@ h2 {
 
 /* Style for the central box */
 .center-box {
-    display: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
@@ -27,7 +23,8 @@ h2 {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 /* Style for each button container */
