@@ -12,6 +12,7 @@ html {
 h2 {
     margin-top: 0px;
     margin-bottom: 0px;
+    
 }
 
 /* Style for the central box */
@@ -72,4 +73,8 @@ h2 {
     text-align: left;
     margin-top: 5px;
     font-size: 14px;
+}
+.info-box ul li a {
+    padding: 5px;
+    display: inline-block;
 }
